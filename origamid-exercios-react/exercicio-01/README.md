@@ -1,7 +1,7 @@
 <h1 align="center">React App</h1>
 
 <p align="center">
-<img src="https://i.imgur.com/dwiPnOv.png">
+<img src="https://i.imgur.com/YuUydDP.png">
 </p>
 
 > Não utilize CSS externo, use o style para mudar as cores.<br />
