@@ -61,7 +61,7 @@ const App = () => {
             {situacao ? ' Ativa' : ' Inativa'}
           </span>
         </h3>
-        <h3>Total: {preco(dados)}</h3>
+        <h3>Total: R$ {preco(dados)}</h3>
         <h3>{preco(dados) > 10000 && 'Você está gastando muito'}</h3>
       </>
     );
