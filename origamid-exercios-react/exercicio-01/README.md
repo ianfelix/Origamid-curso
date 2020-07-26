@@ -9,7 +9,7 @@
 > Se o gasto for maior que 10000 mostre uma mensagem.<br />
 
 <p>
-Nome, idade, situação e o total de gastos são recebidos de forma dinâmica através do objeto abaixo:
+Nome, idade, situação e o total de gastos são recebidos de forma dinâmica através array de objetos abaixo:
 </p>
 
 
