@@ -1,11 +1,13 @@
 <h1 align="center">React App</h1>
 
-<p align="center">
-<img src="https://i.imgur.com/J5aDr1N.png">
+<p align="center" >
+<img width="700px" src="https://user-images.githubusercontent.com/62842327/88689043-67b65900-d0d0-11ea-9557-59578a091026.gif">
 </p>
 
-> Organize os produtos.<br />
-> Mostre apenas produtos que forem mais caros que R$ 1500.<br />
+> Replique a interface como a apresentada na aula <br/>
+> Utilize a array abaixo para mostrar os produtos <br/>
+> Quebre em componentes o que precisar ser reutilizado <br/>
+> Dica: const { pathname } = window.location; (puxa o caminho do URL) <br/>
 
 <p>
 Dados retirados do array de objetos abaixo:
@@ -14,23 +16,8 @@ Dados retirados do array de objetos abaixo:
 
 ```
 const produtos = [
-  {
-    id: 1,
-    nome: 'Smartphone',
-    preco: 'R$ 2000',
-    cores: ['#29d8d5', '#252a34', '#fc3766'],
-  },
-  {
-    id: 2,
-    nome: 'Notebook',
-    preco: 'R$ 3000',
-    cores: ['#ffd045', '#d4394b', '#f37c59'],
-  },
-  {
-    id: 3,
-    nome: 'Tablet',
-    preco: 'R$ 1500',
-    cores: ['#365069', '#47c1c8', '#f95786'],
-  },
+  { nome: 'Notebook', propriedades: ['16gb ram', '512gb'] },
+  { nome: 'Smartphone', propriedades: ['2gb ram', '128gb'] },
 ];
+
  ```
