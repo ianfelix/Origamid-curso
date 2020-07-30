@@ -1,36 +1,22 @@
 <h1 align="center">React App</h1>
 
 <p align="center">
-<img src="https://i.imgur.com/J5aDr1N.png">
+<img src="https://user-images.githubusercontent.com/62842327/88948138-ed204180-d267-11ea-9d28-3c40a49578b6.gif">
 </p>
 
-> Organize os produtos.<br />
-> Mostre apenas produtos que forem mais caros que R$ 1500.<br />
+Os links abaixo puxam dados de um produto em formato JSON
 
-<p>
-Dados retirados do array de objetos abaixo:
-</p>
+> https://ranekapi.origamid.dev/json/api/produto/tablet <br />
+> https://ranekapi.origamid.dev/json/api/produto/smartphone <br />
+> https://ranekapi.origamid.dev/json/api/produto/notebook <br />
+> Ao clicar no botão faça um fetch a api e mostre os dados do produto na tela.<br />
+> Mostre apenas um produto por vez <br />
+> Mostre a mensagem carregando... enquanto o fetch é realizado <br />
 
 
-```
-const produtos = [
-  {
-    id: 1,
-    nome: 'Smartphone',
-    preco: 'R$ 2000',
-    cores: ['#29d8d5', '#252a34', '#fc3766'],
-  },
-  {
-    id: 2,
-    nome: 'Notebook',
-    preco: 'R$ 3000',
-    cores: ['#ffd045', '#d4394b', '#f37c59'],
-  },
-  {
-    id: 3,
-    nome: 'Tablet',
-    preco: 'R$ 1500',
-    cores: ['#365069', '#47c1c8', '#f95786'],
-  },
-];
+``` 
+Crie uma interface com 3 botões, um para cada produto.
+Ao clicar no botão faça um fetch a api e mostre os dados do produto na tela.
+Mostre apenas um produto por vez
+Mostre a mensagem carregando... enquanto o fetch é realizado
  ```
