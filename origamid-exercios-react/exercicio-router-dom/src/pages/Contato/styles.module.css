@@ -1,1 +1,24 @@
-/* The component style is inserted here. */
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.dados {
+  padding: 0;
+  list-style: none;
+}
+
+.dados li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dados li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #ddd;
+  margin-right: 10px;
+}
