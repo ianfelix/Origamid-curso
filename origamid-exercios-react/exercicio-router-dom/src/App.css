@@ -16,6 +16,18 @@ body {
   margin: 2rem;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  min-height: calc(100vh + 10rem);
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1;
+}
+
 img {
   max-width: 100%;
   border-radius: 0.5rem;
@@ -40,5 +52,20 @@ h1 {
   to {
     transform: initial;
     opacity: initial;
+  }
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
   }
 }
