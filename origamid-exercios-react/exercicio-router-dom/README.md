@@ -7,3 +7,9 @@
 <p align="center">
 App feito com React consumindo uma api externa para a listagem dos dados
 </p>
+
+<h2>Ultilização</h2>
+
+1. Clone o repositório
+1. utilize o gerenciador de pacotes de sua preferência para fazer a instalação das dependências (yarn ou npm)
+1. utilize yarn start ou npm start e seja feliz 😊
